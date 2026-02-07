@@ -3,14 +3,14 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const noTexts = [
   'Nei',
-  'Er du sikker?',
+  'E du sikker?',
   'Veldig sikker?',
   'Tenk deg om!',
-  'Nei er ikke et alternativ 😤',
+  'Nei er ikkje et alternativ 😤',
   'Siste sjanse...',
-  'Ok, prøv igjen da 😏',
-  'Den knappen funker ikke 🫣',
-  'Gi opp, du kan ikke si nei 💪',
+  'Ok, prøv igjen då 😏',
+  'Den knappen funke ikkje 🫣',
+  'Gi opp, du kan ikkje si nei 💪',
   '...',
 ]
 

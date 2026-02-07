@@ -2,8 +2,8 @@ import { useState, useRef, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const milestones = [
-  { threshold: 100, text: 'Bare 100%? Vi kan gjøre det bedre!' },
-  { threshold: 500, text: 'Nå snakker vi! 🔥' },
+  { threshold: 100, text: 'Bare 100%? Me kan gjør det bedre!' },
+  { threshold: 500, text: 'Nå snakke vi! 🔥' },
   { threshold: 1000, text: 'Til månen og tilbake! 🚀' },
   { threshold: 5000, text: 'WOOOW du elsker meg SÅ mye?? 🥰' },
 ]
@@ -59,7 +59,7 @@ export default function LoveMeterStage({ onNext }: { onNext: () => void }) {
         animate={{ opacity: 1, y: 0 }}
         className="text-2xl sm:text-3xl font-bold text-text-primary mb-8"
       >
-        Hvor mye elsker du meg?
+        Kor mye elsker du meg?
       </motion.h2>
 
       <motion.div

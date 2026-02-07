@@ -1,13 +1,13 @@
-import { useEffect } from 'react'
-import { motion } from 'framer-motion'
-import useConfetti from '../hooks/useConfetti'
+import { useEffect } from "react";
+import { motion } from "framer-motion";
+import useConfetti from "../hooks/useConfetti";
 
 export default function CelebrationStage() {
-  const { startLoop } = useConfetti()
+  const { startLoop } = useConfetti();
 
   useEffect(() => {
-    startLoop()
-  }, [startLoop])
+    startLoop();
+  }, [startLoop]);
 
   return (
     <motion.div
@@ -18,7 +18,7 @@ export default function CelebrationStage() {
       <motion.h1
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
-        transition={{ type: 'spring', stiffness: 200, damping: 10, delay: 0.2 }}
+        transition={{ type: "spring", stiffness: 200, damping: 10, delay: 0.2 }}
         className="text-5xl sm:text-7xl font-bold text-text-primary mb-6"
       >
         YAAAY! 🎉
@@ -30,7 +30,7 @@ export default function CelebrationStage() {
         transition={{ delay: 0.8, duration: 0.6 }}
         className="text-xl sm:text-2xl text-text-secondary mb-8"
       >
-        Jeg visste du ville si ja 😘
+        Eg visste du ville si ja 😘
       </motion.p>
 
       <motion.p
@@ -39,8 +39,8 @@ export default function CelebrationStage() {
         transition={{ delay: 1.5, duration: 0.6 }}
         className="text-lg text-text-secondary max-w-md"
       >
-        Gleder meg til valentine's day med deg! ❤️
+        Glede meg til valentinsdagen med deg! ❤️
       </motion.p>
     </motion.div>
-  )
+  );
 }

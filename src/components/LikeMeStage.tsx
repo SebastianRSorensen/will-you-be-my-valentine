@@ -27,7 +27,7 @@ export default function LikeMeStage({ onNext }: { onNext: () => void }) {
             animate={{ opacity: 1, y: 0 }}
             className="text-3xl sm:text-4xl font-bold text-text-primary mb-10"
           >
-            Liker du meg?
+            Like du meg?
           </motion.h2>
           <div className="flex gap-4">
             <motion.button
@@ -59,7 +59,7 @@ export default function LikeMeStage({ onNext }: { onNext: () => void }) {
         >
           {answer === 'ja'
             ? 'Bra svar 😏'
-            : 'Feil svar! Jeg liker ikke deg heller... Jeg ELSKER deg! ❤️'}
+            : 'Riktig svar! Eg like ikkje deg heller... Eg ELSKE deg! ❤️'}
         </motion.p>
       )}
     </motion.div>
